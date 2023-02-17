@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+    font-weight: 400, 700;
+    }
+
+body {
+    background: hsl(212, 45%, 89%);
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {    
+    background: hsl(0, 0%, 100%);
+    padding-top: 1rem;
+    display: block;
+    border-radius: 2em;
+    margin: 1rem;
+    width: 320px;
+    height: 500px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1.2em;
+    border-color: hsl(218, 44%, 22%);
+    width: 288px;
+    height: 288px;
+
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    margin: 30px;
+}
+
+p {
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    margin: 30px;
+}
